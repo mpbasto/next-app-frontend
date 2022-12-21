@@ -3,7 +3,7 @@ import styles from "@/styles/Event.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { FaPencilAlt, FaTimes, FaArrowLeft } from "react-icons/fa";
-import { fetchQuery } from "../../utils";
+import { fetchQuery } from "@/utils";
 
 const DATE_OPTIONS = {
   weekday: "long",

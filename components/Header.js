@@ -14,9 +14,10 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link legacyBehavior href="/events">
-              <a>Events</a>
-            </Link>
+            <Link href="/events">Events</Link>
+          </li>
+          <li>
+            <Link href="/events/add">Add Event</Link>
           </li>
         </ul>
       </nav>
