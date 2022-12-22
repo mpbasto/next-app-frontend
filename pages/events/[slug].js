@@ -79,7 +79,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      evt: res,
+      evt: res[0],
     },
     revalidate: 1,
   };

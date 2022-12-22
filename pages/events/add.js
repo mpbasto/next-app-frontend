@@ -9,15 +9,17 @@ import styles from "@/styles/Form.module.css";
 import { FaArrowLeft } from "react-icons/fa";
 
 export default function AddEventPage() {
-  const [values, setValues] = useState({
-    name: "",
-    performers: "",
-    venue: "",
-    address: "",
-    date: "",
-    time: "",
-    description: "",
-  });
+  const [values, setValues] = useState([
+    {
+      name: "",
+      performers: "",
+      venue: "",
+      address: "",
+      date: "",
+      time: "",
+      description: "",
+    },
+  ]);
 
   const router = useRouter();
 
